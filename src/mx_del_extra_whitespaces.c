@@ -1,6 +1,6 @@
 #include "../inc/libmx.h"
 
-char *mx_del_extra_whitespaces(const char *str){
+char *mx_del_extra_spaces(const char *str){
     if (!str) return NULL;
     char *mem = mx_strnew(mx_strlen(str));
     char *result = NULL;
