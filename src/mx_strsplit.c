@@ -20,6 +20,5 @@ char **mx_strsplit(char const *s, char c){
 		res[i] = new_word;
 	}
 	res[count_words] = NULL;
-	for (int i = 0; i < count_words; ++i) printf("%s", res[i]);
 	return res;
 }
