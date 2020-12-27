@@ -51,7 +51,7 @@ int mx_count_substr(const char *str, const char *sub); // 75 REMAKE
 int mx_count_words(const char *str, char c); // 75 REMAKE
 char *mx_strnew(const int size); // 100
 char *mx_strtrim(const char *str); // FAIL done 70 succ
-char *mx_del_extra_spaces(const char *str); // FAIL done IDK
+char *mx_del_extra_spaces(const char *str); // FAIL done IDK 
 char **mx_strsplit(const char *s, char c); // FAIL done 50 success
 char *mx_strjoin(const char *s1, const char *s2); // 50 REMAKE done now i have 75
 char *mx_file_to_str(const char *file); // UNKNOWN FAIL  done

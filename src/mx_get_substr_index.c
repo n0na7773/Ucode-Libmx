@@ -5,8 +5,10 @@ int mx_get_substr_index(const char *str, const char *sub) {
     int str_len, sub_len;
     int found = 0;
     int i, j;
+
     str_len = mx_strlen(str);
     sub_len = mx_strlen(sub);
+    
     for (i = 0; i <= str_len - sub_len; i++) {
         found = 1;
         for (j = 0; j < sub_len; ++j)

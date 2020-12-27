@@ -18,7 +18,7 @@ int mx_binary_search(char **arr, int size, const char *s, int *count) {
         middle = (first + last) / 2;
     }
     if (first > last) {
-        *count = 0;
+        (*count) = 0;
         return -1;
     }
     return -1;

@@ -1,10 +1,12 @@
 #include "../inc/libmx.h"
 
 void *mx_memchr(const void *s, int c, size_t n){
-    const char *_s = s;
     if(n == 0) return 0;
-    for(size_t i = 0; i < n; ++i){
-        if(_s[i] == c) return (char*)&_s[i];
+    
+    const char *cs = s;
+    
+    for(size_t i = 0; i < n; i++){
+        if(cs[i] == c) return (char*)&cs[i];
     }
-    return 0;
+    return NULL;
 }
