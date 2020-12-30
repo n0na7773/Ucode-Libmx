@@ -14,5 +14,5 @@ void mx_printint(int n) {
 	}
 	if (sign < 0) str[i++] = '-';
 	for (int j = i-1; j>=0; --j) 
-             mx_printchar(str[j]); 
+        mx_printchar(str[j]); 
 }

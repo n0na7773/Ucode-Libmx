@@ -44,7 +44,7 @@ char *mx_strndup(const char *s1, size_t n); // done 81
 char *mx_strcpy(char *dst, const char *src); // 100
 char *mx_strncpy(char *dst, const char *src, int len); // FAIL done
 int mx_strcmp(const char *s1, const char *s2); // 100
-char*mx_strcat(char *restrict s1, const char *restrict s2); // 100
+char *mx_strcat(char *restrict s1, const char *restrict s2); // 100
 char *mx_strstr(const char *haystack, const char *needle); // 100
 int mx_get_substr_index(const char *str, const char *sub); // done
 int mx_count_substr(const char *str, const char *sub); // 75 REMAKE
